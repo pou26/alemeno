@@ -1,0 +1,62 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 128, 0.5); /* Aqua blue with some transparency */
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #005353;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input,.loginbtn {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .loginbtn {
+    background-color: #008080; /* Darker shade of aqua blue */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .loginbtn:hover {
+    background-color: #005353;
+  }
+  .titleform{
+    
+    color: rgb(46, 45, 45);
+    text-align: left;
+  }
+  .social{
+    padding-bottom: 20px;
+  }

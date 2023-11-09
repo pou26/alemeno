@@ -1,0 +1,62 @@
+.card{
+    max-width:1000px;
+    margin-left:10%;
+    margin-bottom:5%;
+    /* background-color:purple; */
+    border-radius:15px;
+    
+}
+.cardwrapper{
+    display:flex;
+    align-items:center;
+    box-shadow:0 0 15px 2px grey;
+}
+.cardwrapper{
+    display:flex;
+}
+.imgwrap{
+    max-width:400px;
+    height:250px;
+    padding:10px;
+    border-radius:25px;
+}
+
+.cardbody{
+    padding:10px;
+    margin-left:5px;
+    margin-right:10px;
+    line-height:50px;
+    width:550px;
+    /* background-color:yellow; */
+}
+.instructor{
+    font-weight: bold;
+    font-size:15px;
+}
+.cardduration{
+    color:cadetblue;
+    font-weight: bold;
+}
+.cardtext{
+    font-family: a;
+    margin-top:20px;
+}
+.cardtxt{
+    margin-top:50px;
+    
+}
+.cardtitle{
+    font-size:25px;
+    text-align:center;
+    color:rgb(5, 58, 61)
+    
+}
+.detailwrap{
+    display:flex;
+
+}
+
+.detailbtn:hover{
+   background-color: aqua;
+   color: white;
+}
